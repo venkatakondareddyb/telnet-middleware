@@ -1,0 +1,20 @@
+{
+  "name": "telnet-middleware",
+  "version": "1.0.0",
+  "description": "A middleware for logging telnet communication between device and controller.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha test/telnet.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "net": "^1.0.2"
+  },
+  "author": "Venkata",
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0"
+  }
+}
